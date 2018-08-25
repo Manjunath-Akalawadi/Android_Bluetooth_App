@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demo.manju.bluetooth_app.DeviceListActivity">
+
+    <Button
+        android:id="@+id/showD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Show Devices"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="34dp" />
+
+    <ListView
+        android:id="@+id/dList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/showD"
+        android:background="#D3D3D3"
+        android:layout_marginTop="21dp" />
+
+    <Button
+        android:id="@+id/enableD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/showD"
+        android:layout_marginStart="61dp"
+        android:layout_toEndOf="@+id/showD"
+        android:text="Enable" />
+
+</RelativeLayout>

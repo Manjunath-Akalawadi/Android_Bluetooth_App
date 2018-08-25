@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.demo.manju.bluetooth_app.MainActivity">
+
+
+    <Button
+        android:id="@+id/bOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="108dp"
+        android:text="ON Bluetooth"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/bOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:text="OFF Bluetooth"
+        android:layout_alignBaseline="@+id/bOn"
+        android:layout_alignBottom="@+id/bOn"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/viewD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="114dp"
+        android:text="Paired Devices"
+        android:layout_below="@+id/bOn"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
