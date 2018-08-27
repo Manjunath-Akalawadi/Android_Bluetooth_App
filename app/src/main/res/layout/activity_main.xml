@@ -31,8 +31,27 @@
         android:id="@+id/viewD"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="114dp"
         android:text="Paired Devices"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp" />
+
+    <Button
+        android:id="@+id/wOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ON wifi"
         android:layout_below="@+id/bOn"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignStart="@+id/bOn"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="63dp" />
+
+    <Button
+        android:id="@+id/wOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OFF wifi"
+        android:layout_alignBaseline="@+id/wOn"
+        android:layout_alignBottom="@+id/wOn"
+        android:layout_alignStart="@+id/bOff" />
 </RelativeLayout>
